@@ -13,7 +13,7 @@ import Aos from 'aos';
 const App = () => {
 
   // AOS Animation Initialization
-  React.useEffect(()=> {
+  React.useEffect(() => {
     AOS.init({
       offset: 100,
       duration: 1000,
@@ -34,7 +34,8 @@ const App = () => {
       <Products />
       <Footer />
       <Popup />
-     
+
+
     </div>
   )
 }

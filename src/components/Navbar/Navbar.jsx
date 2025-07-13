@@ -5,6 +5,7 @@ import { FaCartShopping } from "react-icons/fa6";
 import { FaCaretDown } from "react-icons/fa";
 // import DarkMode from "./DarkMode";
 
+
 const Menu = [
   {
     id: 1,
