@@ -1,0 +1,10 @@
+@import "tailwindcss" ;
+@custom-variant dark (&:where([data-theme=dark], [data-theme=dark] *));
+
+@theme {
+    --color-primary: #fea928;
+    --color-secondary: #ed8900;
+    --container-center: true;
+    --container-padding: 1rem;
+    --container-sm-padding: 3rem;
+}
